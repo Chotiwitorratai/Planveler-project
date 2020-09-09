@@ -142,11 +142,11 @@ background: #445b47;
   padding: 15px;
 
 }
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 600px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
   .side-bg {
     display: none;
   }
@@ -155,6 +155,9 @@ background: #445b47;
   }
   .icon {
     align-self: center;
+  }
+  .data-slide #container{
+    display: inline-block;
   }
   
 }
@@ -226,11 +229,12 @@ function closeNav() {
 
 <div id="container"style="position:relative;margin-left:250px;margin-top:150px">
   <div class="row justify-content-center">
-    <div class="col-sm-3 col-md-4 col-lg-6">
+    <div class="col-sm-5 col-md-4 col-lg-6">
   <h1> หน้าที่ทริปไว้ใจเรา</h1>
     </div>
   </div>
 </div>
+<div class="data-slide">
 <div id="container"style="position:absolute;margin-left:100px;margin-top:20px">
   <div class="row justify-content-center">
     <div class="col-10 col-md-7 col-lg-12">
@@ -257,6 +261,7 @@ function closeNav() {
   </div>
     </div>
   </div>
+</div>
 </div>
 <div class="bot-bar"style="z-index:2;">
   <div class="container">
