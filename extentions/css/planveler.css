@@ -172,6 +172,11 @@ body {
     margin-top: 10px;
   }
   
+  .header-website {
+    font-size: 70px;
+    color: #1c3c25;
+  }
+
   @media screen and (max-height: 600px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -189,7 +194,12 @@ body {
       top: 0;
       
     }
-    
+    .header-website {
+      position: relative;
+      display: block;
+      left: -100px;
+      
+    }
     .data-slide #container{
       display: inline-block;
       width: 100%;
@@ -205,14 +215,6 @@ body {
       .bot-bar {
       height: 320px;
       display: inline-block;
-    }
-  }
-  @media screen and (max-width: 900px){
-    .header-website {
-      position: relative;
-      display: block;
-      left: -100px;
-      
     }
   }
   @media screen and (max-width: 1919px){
