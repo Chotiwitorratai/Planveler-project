@@ -80,22 +80,24 @@ body {
     float: left ;
     display: inline-block;
     text-align: center;
-    padding:0px;
+    padding:5px;
     text-decoration: none;
     font-size: 20px;
     overflow: hidden;
     position: relative;
+
   }
   #navbar a:hover {
     background-color: #ddd;
     color: black;
   }
   .botbar-data a:visited {
-    color:#8E8E8E;;
+    color:#8E8E8E;
     text-decoration: none;
   }
   .botbar-data a:hover{
     text-decoration: underline;
+    color:#8E8E8E;
   }
   
   .sidenav {
@@ -105,7 +107,7 @@ body {
     z-index: 4;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #2f2c2c;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -166,6 +168,9 @@ body {
     color: #5A5A5A;
   }
 
+  .loginbar {
+    margin-top: 10px;
+  }
   
   @media screen and (max-height: 600px) {
     .sidenav {padding-top: 15px;}
@@ -179,7 +184,7 @@ body {
       display: none;
     }
     .icon {
-      float: center;
+      
       position: absolute;
       top: 0;
       
