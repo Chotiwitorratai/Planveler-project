@@ -172,6 +172,14 @@ body {
     margin-top: 10px;
   }
   
+<<<<<<< HEAD
+=======
+  .header-website {
+    font-size: 70px;
+    color: #1c3c25;
+  }
+
+>>>>>>> 506e6637b001d39d8077dea90bf152a450e6da54
   @media screen and (max-height: 600px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -189,8 +197,17 @@ body {
       top: 0;
       
     }
+<<<<<<< HEAD
     .header-website
     
+=======
+    .header-website {
+      position: relative;
+      display: block;
+      left: -100px;
+      
+    }
+>>>>>>> 506e6637b001d39d8077dea90bf152a450e6da54
     .data-slide #container{
       display: inline-block;
       width: 100%;
@@ -208,6 +225,7 @@ body {
       display: inline-block;
     }
   }
+<<<<<<< HEAD
   @media screen and (max-width: 900px){
     .header-website {
       position: relative;
@@ -218,6 +236,8 @@ body {
       
     }
   }
+=======
+>>>>>>> 506e6637b001d39d8077dea90bf152a450e6da54
   @media screen and (max-width: 1919px){
     .loginbar{
       position: relative;
